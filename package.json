@@ -1,6 +1,6 @@
 {
   "name": "laravel-nuxt",
-  "version": "1.5.1-alpha",
+  "version": "1.5.2-alpha",
   "description": "Build a SPA with Laravel and Nuxt",
   "bin": {
     "laravel-nuxt": "./bin/laravel-nuxt.js",
@@ -19,16 +19,16 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.5.*",
-    "@nuxtjs/proxy": "^1.3.3",
-    "chalk": "^2.4.2",
-    "commander": "^2.20.0",
-    "cross-spawn": "^6.0.5",
+    "@nuxtjs/axios": "^5.6",
+    "@nuxtjs/proxy": "^1.3",
+    "chalk": "^2.4",
+    "commander": "^2.20",
+    "cross-spawn": "^7.*",
     "death": "^1.1.0",
-    "fs-extra": "^7.0.1",
-    "lodash": "^4.17.11",
-    "npm-which": "^3.0.1",
-    "nuxt": "2.8.*"
+    "fs-extra": "^8.*",
+    "lodash": "^4.17",
+    "npm-which": "^3.0",
+    "nuxt": "^2.9.*"
   },
   "repository": {
     "type": "git",
@@ -47,13 +47,13 @@
   },
   "homepage": "https://github.com/skyrpex/laravel-nuxt-js#readme",
   "devDependencies": {
-    "ava": "^2.0.*",
-    "eslint": "^5.16.*",
+    "ava": "^2.3",
+    "eslint": "^6.3.*",
     "eslint-config-skyrpex": "^2.5.0",
-    "eslint-plugin-ava": "^7.0.*",
+    "eslint-plugin-ava": "^8.0",
     "glob": "^7.1.*",
-    "standard-version": "^6.0.*",
-    "tmp": "0.1.*"
+    "standard-version": "^7.0.*",
+    "tmp": "^0.1.*"
   },
   "ava": {
     "files": [
