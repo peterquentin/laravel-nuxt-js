@@ -1,6 +1,6 @@
 {
   "name": "laravel-nuxt",
-  "version": "1.5.2-alpha",
+  "version": "1.5.3-alpha",
   "description": "Build a SPA with Laravel and Nuxt",
   "bin": {
     "laravel-nuxt": "./bin/laravel-nuxt.js",
@@ -28,7 +28,7 @@
     "fs-extra": "^8.*",
     "lodash": "^4.17",
     "npm-which": "^3.0",
-    "nuxt": "^2.9.*"
+    "nuxt": "^2.13.*"
   },
   "repository": {
     "type": "git",
